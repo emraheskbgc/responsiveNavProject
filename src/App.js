@@ -10,7 +10,7 @@ import Hakkimizda from "./components/Hakkimizda/Hakkimizda";
 const App = () => {
   return (
     <section className="h-screen  bg-cover font-[Poppins] md:bg-top bg-center ">
-      <Navbar /> <br />
+      <Navbar /> <br /> <br />
       <Routes>
         <Route path="/" element={<Anasayfa />} />
         <Route path="/iletisim" element={<Iletisim />} />
